@@ -16,7 +16,8 @@ I use some snippets of code from [cava](https://github.com/karlstav/cava) and [c
 # Building
 
 ```
-$ cmake
+$ mkdir build && cd build
+$ cmake ..
 $ make
 ```
 
