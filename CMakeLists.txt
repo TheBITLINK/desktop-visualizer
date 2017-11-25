@@ -5,7 +5,7 @@ if(NOT CMAKE_BUILD_TYPE)
 endif()
 
 project("Desktop Visualizer")
-set(EXECUTABLE_NAME "vis")
+set(EXECUTABLE_NAME "tblvis")
 
 add_executable(${EXECUTABLE_NAME} main.cpp)
 
