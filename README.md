@@ -11,7 +11,7 @@ I use some snippets of code from [cava](https://github.com/karlstav/cava) and [c
 
  - PulseAudio
  - fftw3
- - SFML
+ - SFML 2.5
 
 # Building
 
@@ -26,4 +26,3 @@ $ make
  - Allow customization (color, position, size, etc) via config file
  - Add support for other audio sources
  - More visualizer designs?
-

@@ -15,9 +15,8 @@ include_directories(${X11_INCLUDE_DIR})
 target_link_libraries(${EXECUTABLE_NAME} ${X11_LIBRARIES})
 
 # SFML
-find_package(SFML 2 REQUIRED graphics window system)
-include_directories(${SFML_INCLUDE_DIR})
-target_link_libraries(${EXECUTABLE_NAME} ${SFML_LIBRARIES} ${SFML_DEPENDENCIES})
+find_package(SFML 2.5 COMPONENTS graphics window system REQUIRED)
+target_link_libraries(${EXECUTABLE_NAME} sfml-graphics sfml-window sfml-system)
 
 # fftw
 find_package(FFTW3)
